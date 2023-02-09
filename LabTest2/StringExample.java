@@ -10,6 +10,7 @@ public class StringExample {
 		// Accept any string from user
 		System.out.print("Enter any String: ");
 		str = sc.nextLine();
+		sc.close();
 		// Convert String to lower case letter
 		str = str.toLowerCase();
 
