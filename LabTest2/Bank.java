@@ -1,5 +1,3 @@
-import java.util.*;
-
 abstract class Bank
 
 {
@@ -16,7 +14,7 @@ class BankA extends Bank
 
    {
 
-       System.out.println("Money deposited in Bank A is $1000");
+      System.out.println("Money deposited in Bank A is $1000");
 
    }
 
@@ -30,7 +28,7 @@ class BankB extends Bank
 
    {
 
-       System.out.println("Money deposited in Bank B is $1500");
+      System.out.println("Money deposited in Bank B is $1500");
 
    }
 
@@ -44,9 +42,8 @@ class BankC extends Bank
 
    {
 
-       System.out.println("Money deposited in Bank C is $2000");
+      System.out.println("Money deposited in Bank C is $2000");
 
    }
 
 }
-
